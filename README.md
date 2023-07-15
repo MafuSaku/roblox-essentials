@@ -30,17 +30,37 @@ Most of these features include possibly setting up [attributes](https://create.r
 If you're using the GitHub version, follow the [releases](#releases) section and download the latest version of the .rbxm file and drag-and-drop it into Roblox Studio
 
 If you're using the Roblox Creator Marketplace version, please do the following:
-- Create a Roblox account if you haven't already, you can do so [here](https://www.roblox.com/signup)
-- Once created, download Roblox Studio if you haven't already, which you can do so [here](https://create.roblox.com/landing)
-- Once you have made a Roblox account and downloaded Roblox Studio, head over to the [Creator Marketplace](https://create.roblox.com/marketplace) and in CreatorType type in Femtrs and seach for "Essentials Module" or the link in the [releases](#releases) section
-- Once you've grabbed the model and done all the steps above, head into Roblox Studio and open up your Toolbox then click on "My Models" and insert the Essential Module
+1. Create a Roblox account if you haven't already, you can do so [here](https://www.roblox.com/signup)
+2. Once created, download Roblox Studio if you haven't already, which you can do so [here](https://create.roblox.com/landing)
+3. Once you have made a Roblox account and downloaded Roblox Studio, head over to the [Creator Marketplace](https://create.roblox.com/marketplace) and in CreatorType, type in "Femtrs" and seach for "Essentials Module" or the link in the [releases](#releases) section
+4. Once you've grabbed the model and done all the steps above, head into Roblox Studio and open up your Toolbox then click on "My Models" and insert the Essential Module
   
 **Note that the Roblox release version may include other open-source projects as a help in need or as an experiment for some and is not needed to run this module**
 
+Once you're in Studio and have placed in the file, create a [Local Script](https://create.roblox.com/docs/reference/engine/classes/LocalScript) in [StarterPlayerScripts](https://create.roblox.com/docs/reference/engine/classes/StarterPlayerScripts) or a [Script](https://create.roblox.com/docs/reference/engine/classes/Script) in [ServerScriptService](https://create.roblox.com/docs/reference/engine/classes/ServerScriptService)!
+
+Once you've done that, enter the following code to reference the Essentials Module:
+
+**Local Script**
+```lua
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Essentials = require(ReplicatedStorage.Scripts:WaitForChild("Essentials"))
+```
+**Script (Server Script)**
+```lua
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Essentials = require(ReplicatedStorage.Scripts.Essentials)
+```
+
 ## Releases
-You can find the latest GitHub releases in the [latest releases](https://github.com/mafusaku/roblox-essentials/latest/releases) section
+You can find the latest GitHub releases in the [latest releases](https://github.com/mafusaku/roblox-essentials/releases/latest) section
 
 Alternatively, you can find and receive automatic updates on the Roblox [Creator Marketplace](https://create.roblox.com/marketplace/asset/14063644500/Essentials-Module) version
+
+## Bug Reports, Feature Requests, or Questions
+You can submit all these using the template provided [here](https://github.com/MafuSaku/roblox-essentials/issues/new/choose)
 
 ## License
 This project is made under the [MIT License](LICENSE)
