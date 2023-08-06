@@ -4,7 +4,11 @@
 
 <hr />
 
-This module script includes a lot of essentials for you to use in your Roblox experience that can save time programming and be useful for functionality and availability as it's recommended to be placed inside [ReplicatedStorage](https://create.roblox.com/docs/reference/engine/classes/ReplicatedStorage)!
+[![License](https://img.shields.io/github/license/mafusaku/roblox-essentials)](https://github.com/MafuSaku/roblox-essentials/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/mafusaku/roblox-essentials/latest/total?color=b19cd9)](https://github.com/MafuSaku/roblox-essentials/releases)
+[![Version](https://img.shields.io/github/v/release/mafusaku/roblox-essentials?color=7a39fb)](https://github.com/MafuSaku/roblox-essentials/releases/latest)
+
+This module script includes a lot of essentials for you, as a developer, to use in your Roblox experience that can save time programming and be useful for easy functionality and availability!
 
 ## What does this module include?
 I'll give a quick run down on what this module includes with it's functions and features! This is a quick summary and a little taste of what this module has to offer
@@ -21,38 +25,17 @@ I'll give a quick run down on what this module includes with it's functions and 
 - [VRService](https://create.roblox.com/docs/reference/engine/classes/VRService)
   - VR Automatic Scaling
   - VR Safety Bubble Modes
+- [BadgeService](https://create.roblox.com/docs/reference/engine/classes/BadgeService)
+  - Award and Check badges
     
 and many more!!
 
 Most of these features include possibly setting up [attributes](https://create.roblox.com/docs/studio/instance-attributes) and debugging tools that use warnings and print statements that can be enabled with a simple true or false boolean :3
 
 ## How to install/use?
-If you're using the GitHub version, follow the [releases](#releases) section and download the latest version of the .rbxm file and drag-and-drop it into Roblox Studio
+You can read more about installing and using it in the [official documentation](https://synilla.gitbook.io/essentials/getting-started/installation)!
 
-If you're using the Roblox Creator Marketplace version, please do the following:
-1. Create a Roblox account if you haven't already, you can do so [here](https://www.roblox.com/signup)
-2. Once created, download Roblox Studio if you haven't already, which you can do so [here](https://create.roblox.com/landing)
-3. Once you have made a Roblox account and downloaded Roblox Studio, head over to the [Creator Marketplace](https://create.roblox.com/marketplace) and in CreatorType, type in "Femtrs" and seach for "Essentials Module" or the link in the [releases](#releases) section
-4. Once you've grabbed the model and done all the steps above, head into Roblox Studio and open up your Toolbox then click on "My Models" and insert the Essential Module
-  
-**Note that the Roblox release version may include other open-source projects as a help in need or as an experiment for some and is not needed to run this module**
-
-Once you're in Studio and have placed in the file, create a [Local Script](https://create.roblox.com/docs/reference/engine/classes/LocalScript) in [StarterPlayerScripts](https://create.roblox.com/docs/reference/engine/classes/StarterPlayerScripts) or a [Script](https://create.roblox.com/docs/reference/engine/classes/Script) in [ServerScriptService](https://create.roblox.com/docs/reference/engine/classes/ServerScriptService)!
-
-Once you've done that, enter the following code to reference the Essentials Module:
-
-**Local Script**
-```lua
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
-local Essentials = require(ReplicatedStorage.Scripts:WaitForChild("Essentials"))
-```
-**Script (Server Script)**
-```lua
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
-local Essentials = require(ReplicatedStorage.Scripts.Essentials)
-```
+Once you've done that, enter the following code to [reference the Essentials Module](https://synilla.gitbook.io/reference/using-essentials).
 
 ## Releases
 You can find the latest GitHub releases in the [latest releases](https://github.com/mafusaku/roblox-essentials/releases/latest) section
