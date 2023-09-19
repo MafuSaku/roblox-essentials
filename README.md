@@ -15,13 +15,13 @@ I'll give a quick run down on what this module includes with it's functions and 
 
 - [Players](https://create.roblox.com/docs/reference/engine/classes/Players)
   - Checking if user is ID verified
-  - Checking if user has Verified Badge
-  - Checking if user is the game or group owner
+  - Checking if user is the game or group owner or is in the group
 - [VoiceChatService](https://create.roblox.com/docs/reference/engine/classes/VoiceChatService) and [VoiceChatInternal](https://create.roblox.com/docs/reference/engine/classes/VoiceChatInternal)
   - Checking if user has Voice enabled
 - [MarketplaceService](https://create.roblox.com/docs/reference/engine/classes/MarketplaceService)
   - Prompt Purchases for Products (Developer Products), Assets, Gamepasses, and Premium
   - Gamepass and Asset Checking
+  - Subscription Purchasing
 - [VRService](https://create.roblox.com/docs/reference/engine/classes/VRService)
   - VR Automatic Scaling
   - VR Safety Bubble Modes
