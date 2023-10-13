@@ -4,9 +4,16 @@
 
 <hr />
 
-[![License](https://img.shields.io/github/license/mafusaku/roblox-essentials)](https://github.com/MafuSaku/roblox-essentials/blob/main/LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/mafusaku/roblox-essentials/latest/total?color=b19cd9)](https://github.com/MafuSaku/roblox-essentials/releases)
-[![Version](https://img.shields.io/github/v/release/mafusaku/roblox-essentials?color=7a39fb)](https://github.com/MafuSaku/roblox-essentials/releases/latest)
+<p align="center">
+	<a href="https://github.com/MafuSaku/roblox-essentials/blob/main/LICENSE">
+		<img alt="License" src="https://img.shields.io/github/license/mafusaku/roblox-essentials?style=for-the-badge&Label=LICENSE&logo=gitbook&color=B5E8E0&logoColor=D9E0EE&labelColor=302D41"></a>
+	<a href="https://github.com/MafuSaku/roblox-essentials/releases/latest">
+		<img alt="Releases" src="https://img.shields.io/github/v/release/mafusaku/roblox-essentials?style=for-the-badge&logo=github&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"/></a>
+	<a href="https://github.com/MafuSaku/roblox-essentials/releases">
+		<img alt="Downloads" src="https://img.shields.io/github/downloads/mafusaku/roblox-essentials/latest/total?style=for-the-badge&logo=github&color=F2CDCD&logoColor=D9E0EE&labelColor=302D41"></a>
+	<a href="https://github.com/MafuSaku/roblox-essentials/issues">
+		<img alt="Issues" src="https://img.shields.io/github/issues/mafusaku/roblox-essentials?style=for-the-badge&logo=gitbook&color=B5E8E0&logoColor=D9E0EE&labelColor=302D41"></a>
+</p>
 
 This module script includes a lot of essentials for you, as a developer, to use in your Roblox experience that can save time programming and be useful for easy functionality and availability!
 
