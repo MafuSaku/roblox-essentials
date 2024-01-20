@@ -15,6 +15,8 @@
 		<img alt="Issues" src="https://img.shields.io/github/issues/mafusaku/roblox-essentials?style=for-the-badge&logo=gitbook&color=B5E8E0&logoColor=D9E0EE&labelColor=302D41"></a>
 </p>
 
+> **__Developer Note:__** As of 1/21/2024, Essentials version 1.3 is actively being worked on. 1.3 would include a big rework of how Essentials works!! The wiki will be changed to GitHub wiki and would be updated some time after the 1.3 release if i'm not busy!
+
 This module script includes a lot of essentials for you, as a developer, to use in your Roblox experience that can save time programming and be useful for easy functionality and availability!
 
 ## What does this module include?
